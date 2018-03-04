@@ -6,7 +6,7 @@
 
 		"use strict";
 		// Load the page and wait 1s.
-	    $('#loader').delay( 1000 ).fadeOut('slow');	
+	    $('#loader').delay( 1000 ).fadeOut('slow');
 
 	});
 
@@ -17,7 +17,7 @@ $(document).ready(function() {
 	/* Video Player
 	-----------------------------------------------------------------------------------*/
 	if ($("#video-wrap").length) {
-        $('#video-wrap').YTPlayer({            
+        $('#video-wrap').YTPlayer({
              showControls: false,
             playerVars: {
                 modestbranding: 0,
@@ -46,10 +46,9 @@ $(document).ready(function() {
     		transition: 'fade2',
     		transitionDuration: 4000,
     		slides: [
-    			{ src: "./img/portfolio_1.jpg" },
-    			{ src: "./img/portfolio_2.jpg" },
-    			{ src: "./img/portfolio_3.jpg" },
-    			{ src: "./img/portfolio_4.jpg" }
+    			{ src: "./img/custom/greek-boat.jpg" },
+    			{ src: "./img/custom/greek-chair.jpg" },
+    			{ src: "./img/custom/lake-jump.jpg" },
     		]
     	});
     }
@@ -73,32 +72,32 @@ $(document).ready(function() {
 	-----------------------------------------------------------------------------------*/
 
 	/* activate scrollspy menu */
-	$('body').scrollspy({ 
+	$('body').scrollspy({
 		target: '.navbar', offset:74
 	});
 
 	//$.scrollTo works EXACTLY the same way, but scrolls the whole screen
-	$('.navbar-nav a').on('click', function(){ 
-		$.scrollTo( 
+	$('.navbar-nav a').on('click', function(){
+		$.scrollTo(
 			this.hash, 1000,
 			{ offset:-73 }
 		);
-	});	
+	});
 
-	$('.scroll-link').on('click', function(){ 
-		$.scrollTo( 
+	$('.scroll-link').on('click', function(){
+		$.scrollTo(
 			this.hash, 1000,
 			{ offset:-73 }
-		);				
-	});	
+		);
+	});
 
-	/* Simple Count Down 
+	/* Simple Count Down
 	-----------------------------------------------------------------------------------*/
-		
+
 	if( $('#countdown').length ) {
 		// Set the date we're counting down to
 		var countDownDate = Date.parse('25 Jun 2018 15:30:00');
-		
+
 		// Update the count down every 1 second
 		var x = setInterval(function() {
 
@@ -115,15 +114,15 @@ $(document).ready(function() {
 		  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 		  // Display the result in the element with class="countdown"
-		  document.getElementById('countdown').innerHTML = 
-		  "<ul>" + 
+		  document.getElementById('countdown').innerHTML =
+		  "<ul>" +
 			  "<li>" + "<h2>" + days + "</h2>" + "<h4>days</h4>" + "</li>" +
 			  "<li>" + "<h2>" + hours + "</h2>" + "<h4>hours</h4>" + "</li>"+
 			  "<li>" + "<h2>" + minutes + "</h2>" + "<h4>min</h4>" + "</li>"+
-			  "<li>" + "<h2>" + seconds + "</h2>" + "<h4>sec</h4>"+"</li>"+			  
+			  "<li>" + "<h2>" + seconds + "</h2>" + "<h4>sec</h4>"+"</li>"+
 		  "</ul>";
-		  
-		  // If the count down is finished, write some text 
+
+		  // If the count down is finished, write some text
 		  if (distance < 0) {
 		  	clearInterval(x);
 		  	document.getElementById('countdown').innerHTML = "EXPIRED";
@@ -134,24 +133,24 @@ $(document).ready(function() {
 
 	/* Sticky Nav
 	-----------------------------------------------------------------------------------*/
-	
+
 	$(window).on('scroll', function() {
 
 		var sliderHeight = $("#slider").outerHeight();
 		var blogHeight = $("#blog-header").outerHeight();
 		var videoHeight = $("#video-bg").outerHeight();
-				
+
 		/* Full Width */
-		($(window).scrollTop() > sliderHeight) ? $('#primary-navbar').addClass('affix') : $('#primary-navbar').removeClass('affix');		
+		($(window).scrollTop() > sliderHeight) ? $('#primary-navbar').addClass('affix') : $('#primary-navbar').removeClass('affix');
 		($(window).scrollTop() > blogHeight) ? $('#primary_navbar_blog').addClass('affix') : $('#primary_navbar_blog').removeClass('affix');
-	
+
 		/* Box Layouth */
-		($(window).scrollTop() > sliderHeight) ? $('#primary-navbar-box').addClass('affix') : $('#primary-navbar-box').removeClass('affix');		
+		($(window).scrollTop() > sliderHeight) ? $('#primary-navbar-box').addClass('affix') : $('#primary-navbar-box').removeClass('affix');
 		($(window).scrollTop() > blogHeight) ? $('#primary_navbar_blog_box').addClass('affix') : $('#primary_navbar_blog_box').removeClass('affix');
-		
+
 		/* Video Layouth */
-		($(window).scrollTop() > videoHeight) ? $('#primary-navbar-video').addClass('affix') : $('#primary-navbar-video').removeClass('affix');		
-				
+		($(window).scrollTop() > videoHeight) ? $('#primary-navbar-video').addClass('affix') : $('#primary-navbar-video').removeClass('affix');
+
 	});
 
 	/* Count Up Plugin Settings
@@ -170,8 +169,8 @@ $(document).ready(function() {
 	var countup_1 = new CountUp("counter-1", 0, 4500, 0, 2.5, options);
 	var countup_2 = new CountUp("counter-2", 0, 153, 0, 2.5, options);
 	var countup_3 = new CountUp("counter-3", 0, 49, 0, 2.5, options);
-	var countup_4 = new CountUp("counter-4", 0, 978, 0, 2.5, options);	
-	
+	var countup_4 = new CountUp("counter-4", 0, 978, 0, 2.5, options);
+
 	var $CounterStart = $('#countup' );
 
 	// If scroll get to the waypoint, the Count up start
@@ -208,14 +207,14 @@ $(document).ready(function() {
 
 	// filter functions
 	var filterFns = {
-		
+
 	  // show if name ends with -ium
 	  ium: function() {
 	  	var name = $(this).find('.name').text();
 	  	return name.match( /ium$/ );
 	  }
 	};
-	
+
 	// bind filter button click
 	$('.filters-button-group').on( 'click', 'button', function() {
 		var filterValue = $( this ).attr('data-filter');
@@ -267,22 +266,22 @@ $(document).ready(function() {
 
 	/* Bootstrap Collapse
 	-----------------------------------------------------------------------------------*/
-	
+
 	(function() {
-  
+
 	  $(".panel").on("show.bs.collapse hide.bs.collapse", function(e) {
 		if (e.type === 'show'){
 		  $(this).addClass('active');
 		}else{
 		  $(this).removeClass('active');
 		}
-	  });  
+	  });
 
 	}).call(this);
 
 
 	/* Owl Carousel
-	-----------------------------------------------------------------------------------*/	
+	-----------------------------------------------------------------------------------*/
 
 	$('#gift-carousel').owlCarousel({
 		loop:true,
@@ -321,7 +320,7 @@ $(document).ready(function() {
 
     /* RSVP FORM
     -----------------------------------------------------------------------------------*/
-	
+
 	// form validation
 	$("#rsvp_form").validate({
 		rules: {
@@ -330,7 +329,7 @@ $(document).ready(function() {
 				minlength: 4
 			},
 			email: "required",
-			
+
 			guest: {
 				required: true
 			},
@@ -356,13 +355,13 @@ $(document).ready(function() {
 
 		// ajax request
 		submitHandler: function (form) {
-			
+
 			var data = $(form).serialize();
 			var form = $("#rsvp_form");
-			
+
 			// loader
 			$( ".loader").show();
-			
+
 			// ajax request
 			$.ajax({
 				type: "POST",
@@ -370,30 +369,30 @@ $(document).ready(function() {
 				data: data,
 				dataType: "json",
 				success: function (data) {
-					
+
 					// if send data successfull
 					if(data.status === 'success'){
-						
+
 						$( ".loader").hide();
 						$( form ).fadeOut( "slow" );
 						setTimeout(function() {
 							$( ".form-success").show( "slow" );
 						}, 300);
-						
-					// if send data something wrong	
+
+					// if send data something wrong
 					}else if(data.status === 'error'){
-						
+
 						$( ".loader").hide();
 						$( form ).fadeOut( "slow" );
 						setTimeout(function() {
 							$( ".form-error").show( "slow" );
 						}, 300);
 					}
-					
+
 				}
 			});
 			return false;
-		}	   
+		}
 
 	});
 

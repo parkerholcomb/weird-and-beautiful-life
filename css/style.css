@@ -1,4 +1,4 @@
-/* ==================================================== 
+/* ====================================================
 
 Theme name: Arlin
 version: 1.0
@@ -8,7 +8,7 @@ Contact: https://themeforest.net/user/regediter
 ==================================================== */
 
 
-/* ==================================================== 
+/* ====================================================
 1  - Base CSS
 2  - Nav
 3  - Typography
@@ -43,7 +43,7 @@ Contact: https://themeforest.net/user/regediter
 	z-index: 3;
 }
 .img-overlay{
-	background: rgba(0, 0, 0, 0.45);	
+	background: rgba(0, 0, 0, 0.45);
 	background-image: url("data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjIwcHgiIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAwIDIwIDIwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyMCAyMDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdHRlcm4gIHdpZHRoPSIyIiBoZWlnaHQ9IjIiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiIGlkPSJOZXdfUGF0dGVybl80IiB2aWV3Qm94PSIwIC0yIDIgMiIgc3R5bGU9Im92ZXJmbG93OnZpc2libGU7Ij4NCgk8Zz4NCgkJPHBvbHlnb24gc3R5bGU9ImZpbGw6bm9uZTsiIHBvaW50cz0iMCwtMiAyLC0yIDIsMCAwLDAgCQkiLz4NCgkJDQoJCQk8bGluZWFyR3JhZGllbnQgaWQ9IlNWR0lEXzFfIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAuNSIgeTE9Ii0xNjM2MSIgeDI9IjEuNSIgeTI9Ii0xNjM2MSIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgxIDAgMCAtMSAwIC0xNjM2MikiPg0KCQkJPHN0b3AgIG9mZnNldD0iMCIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMCIvPg0KCQkJPHN0b3AgIG9mZnNldD0iMSIgc3R5bGU9InN0b3AtY29sb3I6IzAwMDAwMDtzdG9wLW9wYWNpdHk6MCIvPg0KCQk8L2xpbmVhckdyYWRpZW50Pg0KCQk8cG9seWdvbiBzdHlsZT0iZmlsbDp1cmwoI1NWR0lEXzFfKTsiIHBvaW50cz0iMS41LC0wLjUgMC41LC0wLjUgMC41LC0xLjUgMS41LC0xLjUgCQkiLz4NCgk8L2c+DQo8L3BhdHRlcm4+DQo8cmVjdCBzdHlsZT0ib3BhY2l0eTowLjY7ZmlsbDp1cmwoI05ld19QYXR0ZXJuXzQpOyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjIwIi8+DQo8L3N2Zz4=");
 	height: 100%;
 	left: 0;
@@ -72,7 +72,7 @@ Contact: https://themeforest.net/user/regediter
 	display: flex;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
-	        align-items: center;	
+	        align-items: center;
 }
 .headline_1{
 	width: 215px;
@@ -109,7 +109,7 @@ Contact: https://themeforest.net/user/regediter
 
 .btn{
 	padding: .75rem .75rem;
-	border-radius: 3px;	
+	border-radius: 3px;
 }
 button i {
 	margin-left: .75rem;
@@ -138,7 +138,7 @@ button i {
 
 /* 2 Nav
 ==================================================== */
- 
+
 #nav-holder{
 	height:78px;
 }
@@ -152,25 +152,25 @@ button i {
     width: 100%;
     opacity: 0.97;
  }
- .menu-right{  
-    -webkit-box-pack: end;  
-        -ms-flex-pack: end;  
+ .menu-right{
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
             justify-content: flex-end;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
 }
- .menu-center{  
-    -webkit-box-pack: center;  
-        -ms-flex-pack: center;  
+ .menu-center{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
 }
- .menu-left{  
-    -webkit-box-pack: start;  
-        -ms-flex-pack: start;  
+ .menu-left{
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
             justify-content: flex-start;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
@@ -249,7 +249,7 @@ a, .custom-color{
 	display: block;
 }
 .link:hover{
-	color:rgba(45, 44, 53, 1);	
+	color:rgba(45, 44, 53, 1);
 }
 a:focus, a:hover{
 	text-decoration: none;
@@ -277,10 +277,10 @@ p {
 }
 .big-heading{
 	margin-bottom: 1rem;
-    line-height: 1em;	
+    line-height: 1em;
 	font-family: 'Dancing Script', cursive;
 }
-h1 { 
+h1 {
 	font-size: 3.052em; /* 48.828px */
 }
 h2 {
@@ -414,14 +414,14 @@ footer h2 {
     opacity: 0.5;
 }
 .holder-caption{
-	width: 100%	
+	width: 100%
 }
 .slider-scroll i{
 	color: #fff;
     position: relative;
     font-size: 3rem;
     z-index: 3;
-    top: 3rem;   
+    top: 3rem;
 }
 .slider-img-holder{
 	background: url(../img/hearth_center.svg) no-repeat center center transparent; 
@@ -464,20 +464,20 @@ footer h2 {
 }
 
 .fade-down{
-	animation-name: fade-down;	
+	animation-name: fade-down;
 	animation-duration: 1.5s;
 	animation-iteration-count: infinite;
 	-webkit-animation-name: fade-down;
 	-webkit-animation-duration: 1.5s;
-	-webkit-animation-iteration-count: infinite;	
+	-webkit-animation-iteration-count: infinite;
 }
 @keyframes fade-down {
-	0% 		{ -webkit-transform: translatey(-20px); transform: translatey(-20px); opacity: 0.8; }	
-	100% 	{ -webkit-transform: translatey(20px); transform: translatey(20px); opacity: 0;	}			
+	0% 		{ -webkit-transform: translatey(-20px); transform: translatey(-20px); opacity: 0.8; }
+	100% 	{ -webkit-transform: translatey(20px); transform: translatey(20px); opacity: 0;	}
 }
 @-webkit-keyframes fade-down {
-	0% 		{-webkit-transform: translatey(-20px); opacity: 0.8; }	
-	100%	{-webkit-transform: translatey(20px); opacity: 0; }			
+	0% 		{-webkit-transform: translatey(-20px); opacity: 0.8; }
+	100%	{-webkit-transform: translatey(20px); opacity: 0; }
 }
 
 /* 6 About Section
@@ -562,9 +562,9 @@ footer h2 {
 	margin-bottom: 3rem;
 }
 .tline-head{
-	width:100%;	
+	width:100%;
 }
-.timeline{ 
+.timeline{
 	list-style: outside none none;
 	padding: 0;
 	position: relative;
@@ -586,10 +586,10 @@ footer h2 {
 .tline-arrow:before{
 	border: medium solid transparent;
 	content: " ";
-	position: absolute;    
+	position: absolute;
 }
-.tline-left-side .tline-arrow{	
-	right: 33px;    	
+.tline-left-side .tline-arrow{
+	right: 33px;
 }
 .tline-left-side .tline-arrow:after,
 .tline-left-side .tline-arrow:before{
@@ -608,7 +608,7 @@ footer h2 {
 	margin-top: -7px;
 }
 .tline-right-side .tline-arrow{
-	left: 33px;   
+	left: 33px;
 }
 .tline-right-side .tline-arrow:after,
 .tline-right-side .tline-arrow:before{
@@ -632,7 +632,7 @@ footer h2 {
 	line-height: 24px;
 }
 .timeline span{
-	color:#7b7b7b;	
+	color:#7b7b7b;
 }
 .tline-left-side i{
 	margin-left:10px;
@@ -667,7 +667,7 @@ footer h2 {
 	left: -9px;
 }
 .img-date-left, .img-date-right{
-	position: absolute;    
+	position: absolute;
     background: rgba(255,255,255,0.87);
     padding: 5px;
     top: 1rem;
@@ -697,7 +697,7 @@ footer h2 {
 #blog .card{
 	border: none;
     border-radius: 3px;
-    min-width: 17rem;   
+    min-width: 17rem;
     display: block;
     margin-bottom: 2rem;
 }
@@ -735,7 +735,7 @@ footer h2 {
 }
 
 /* 11 Twitter Section
-==================================================== */	
+==================================================== */
 #twitter{
 	background: url("../img/blog_bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
 	color: #fff;
@@ -784,16 +784,16 @@ footer h2 {
 	outline: none;
 }
 #portfolio .item{
-	margin-bottom: 1.875rem;	
+	margin-bottom: 1.875rem;
 	position: relative;
 	min-height: 1px;
 }
-.item img{	
+.item img{
 	border-radius: 3px;
 	-webkit-transition: 3250ms all cubic-bezier(0.4, 0, 1, 1);
 	-o-transition: 3250ms all cubic-bezier(0.4, 0, 1, 1);
 	transition: 3250ms all cubic-bezier(0.4, 0, 1, 1);
-	width: 100%;	
+	width: 100%;
 }
 .thumbnail-overlay{
 	overflow: hidden;
@@ -873,10 +873,10 @@ footer h2 {
             box-shadow: none;
     margin-bottom: 20px;
 }
-.panel-title { 
+.panel-title {
 	display: inline-block;
     font-weight: 400;
-    margin: 10px 0;    
+    margin: 10px 0;
 }
 .panel-body {
     padding: 10px 15px 15px 60px;
@@ -926,7 +926,7 @@ footer h2 {
     -o-transition: all 1s ease 0s;
     transition: all 1s ease 0s;
 }
-#accordion.panel-group.line div.panel.panel-default.active .panel-title{	
+#accordion.panel-group.line div.panel.panel-default.active .panel-title{
     color: #de037f;
 }
 
@@ -947,7 +947,7 @@ footer h2 {
 .counter-number{
 	font-size:2.441em;
 	font-weight:normal;
-	line-height: 1.3em;	
+	line-height: 1.3em;
 	margin-bottom: 1rem;
 	font-family: 'Dancing Script', cursive;
 }
@@ -974,13 +974,13 @@ footer h2 {
     text-align: center;
 }
 .owl-theme .owl-controls .owl-page span {
-    background: none repeat scroll 0 0 #d2d2d2;    
-    -webkit-transition: all ease-in-out 300ms;    
-    -o-transition: all ease-in-out 300ms;    
+    background: none repeat scroll 0 0 #d2d2d2;
+    -webkit-transition: all ease-in-out 300ms;
+    -o-transition: all ease-in-out 300ms;
     transition: all ease-in-out 300ms;
 }
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background: none repeat scroll 0 0 #de037f;    
+    background: none repeat scroll 0 0 #de037f;
 }
 #gift-carousel i{
 	color: #ececec;
@@ -1021,7 +1021,7 @@ footer h2 {
 #rsvp input{
 	height: 52px;
 }
-#rsvp .form-control {   
+#rsvp .form-control {
 	background-color: rgba(255,255,255,0.8);
 	border: 1px solid #fff;
 	border-radius: 3px;
@@ -1032,7 +1032,7 @@ footer h2 {
 	margin-bottom: 15px;
 	font-size: 16px;
 }
-#rsvp .form-group label{       
+#rsvp .form-group label{
 	color: #fff;
 	font-weight: 300;
 }
@@ -1317,7 +1317,7 @@ select.form-control:not([size]):not([multiple]) {
 	margin-bottom: 1rem;
 }
 .comment{
-	
+
 }
 .comment-list{
 	list-style: none;
@@ -1362,21 +1362,21 @@ select.form-control:not([size]):not([multiple]) {
     max-width: 1200px;
     margin: 0 auto;
 }
-#box .box-body{	
+#box .box-body{
 	max-width: 1200px;
     height: auto;
     position: relative;
     margin: 0 auto;
     -webkit-box-shadow: 0px 11px 8px 0px rgba(0,0,0,0.2);
-            box-shadow: 0px 11px 8px 0px rgba(0,0,0,0.2);    
+            box-shadow: 0px 11px 8px 0px rgba(0,0,0,0.2);
 }
-#box #slider{	
+#box #slider{
 	max-width: 1200px;
     margin: 0 auto;
     -webkit-box-shadow: 0px 11px 8px 0px rgba(0,0,0,0.2);
-            box-shadow: 0px 11px 8px 0px rgba(0,0,0,0.2);    
+            box-shadow: 0px 11px 8px 0px rgba(0,0,0,0.2);
 }
-#box body{	
+#box body{
 	background-image: url(../img/countup_bg.png);
 }
 #primary-navbar-box.affix,
@@ -1440,7 +1440,7 @@ select.form-control:not([size]):not([multiple]) {
 		-webkit-box-ordinal-group: 3;
 		        order: 2;
 	}
-	
+
 	/* slider */
 	#slider p,
 	#video-bg p {
@@ -1484,7 +1484,7 @@ select.form-control:not([size]):not([multiple]) {
 
 	/* event */
 	.pr-70{
-		padding-right: 15px; 
+		padding-right: 15px;
 	}
 	.pl-70{
 		padding-left: 15px;
@@ -1498,7 +1498,7 @@ select.form-control:not([size]):not([multiple]) {
 
 }
 /* Small devices (landscape phones, 578px and 767px) */
-@media screen and (min-width: 578px) and (max-width: 767px){ 
+@media screen and (min-width: 578px) and (max-width: 767px){
 
 	#primary-navbar-box.affix{
 		min-width: 100%;
@@ -1520,7 +1520,7 @@ select.form-control:not([size]):not([multiple]) {
 		-webkit-box-ordinal-group: 3;
 		        order: 2;
 	}
-	
+
 	/* slider */
 	#slider p,
 	#video-bg p{
@@ -1561,7 +1561,7 @@ select.form-control:not([size]):not([multiple]) {
 		text-align: left !important;
 	}
 	.pr-70{
-		padding-right: 15px; 
+		padding-right: 15px;
 	}
 	.pl-70{
 		padding-left: 15px;
@@ -1573,7 +1573,7 @@ select.form-control:not([size]):not([multiple]) {
  }
 
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) and (max-width: 992px) { 
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
 	#primary-navbar-box.affix{
 		min-width: 100%;
@@ -1611,7 +1611,7 @@ select.form-control:not([size]):not([multiple]) {
 
 	/* event */
 	.pr-70{
-		padding-right: 30px; 
+		padding-right: 30px;
 	}
 	.pl-70{
 		padding-left: 30px;
@@ -1623,7 +1623,7 @@ select.form-control:not([size]):not([multiple]) {
  }
 
 /* Large devices (desktops, 992px and up) */
-@media screen and (min-width: 992px) and (max-width: 1200px) { 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
 
 
 	/* Nav */
@@ -1649,7 +1649,7 @@ select.form-control:not([size]):not([multiple]) {
  }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) { 
+@media screen and (min-width: 1200px) {
 
 
 	/* Nav */
