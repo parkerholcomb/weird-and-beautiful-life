@@ -240,7 +240,7 @@ section #portfolio{
     padding-bottom: 8rem;
 }
 a, .custom-color{
-	color: #de037f;
+	color: #4A90E2;
 	-webkit-transition: all 150ms ease-in-out;
 	-o-transition: all 150ms ease-in-out;
 	transition: all 150ms ease-in-out;
@@ -424,7 +424,7 @@ footer h2 {
     top: 3rem;
 }
 .slider-img-holder{
-	background: url(../img/hearth_center.svg) no-repeat center center transparent; 
+	background: url(../img/hearth_center.svg) no-repeat center center transparent;
 	background-size: contain;
     margin: 0 auto;
     opacity: 0.3;
