@@ -48,7 +48,6 @@ $(document).ready(function() {
     		slides: [
     			{ src: "./img/custom/greek-boat.jpg" },
     			{ src: "./img/custom/greek-chair.jpg" },
-    			{ src: "./img/custom/lake-jump.jpg" },
     		]
     	});
     }
