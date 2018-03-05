@@ -546,22 +546,16 @@ footer h2 {
 ==================================================== */
 
 /*story section images*/
-.story-img-1{ background: url("../img/story_1.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
-.story-img-2{ background: url("../img/story_2.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
-.story-img-3{ background: url("../img/story_3.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
-.story-img-4{ background: url("../img/story_4.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.story-first-dates{ background: url("../img/custom/first-dates.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.story-yes-and{ background: url("../img/custom/yes-and.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.story-chicago{ background: url("../img/custom/chicago.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.story-proposal{ background: url("../img/custom/proposal.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.story-nyc{ background: url("../img/custom/nyc.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.story-marlow{ background: url("../img/custom/marlow.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
 
 .story-img {
-	height: 14rem;
-	width: 100%;
-	border-radius: 3px;
-}
-.story-img-1,
-.story-img-2,
-.story-img-3,
-.story-img-4 {
 	height: 17rem;
-    width: 100%;
+  width: 100%;
 	border-radius: 3px;
 }
 #story .tline-title{
