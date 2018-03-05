@@ -231,13 +231,13 @@ body{
 	line-height: 26px;
 }
 section, .section{
-	padding: 8rem 0;
+	padding: 4rem 0;
 	position: relative;
 	background: #fff;
 }
 section #portfolio{
 	padding-top: 6.125rem;
-    padding-bottom: 8rem;
+  padding-bottom: 8rem;
 }
 a, .custom-color{
 	color: #4A90E2;
@@ -329,7 +329,9 @@ footer h2 {
     margin-left: 1rem;
     border-left: .1875rem solid #4A90E2;
 }
-
+.font-lightweight {
+	font-weight: 300;
+}
 
 /* 4 Shortcodes
 ==================================================== */
@@ -518,7 +520,7 @@ footer h2 {
 /* 7 Comment Section
 ==================================================== */
 #comment{
-	background: url("../img/comment_bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+	background: url("../img/custom/lake-jump.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
 }
 #comment h3{
 	font-weight: 200;
