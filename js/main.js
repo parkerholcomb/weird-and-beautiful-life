@@ -46,8 +46,8 @@ $(document).ready(function() {
     		transition: 'fade2',
     		transitionDuration: 4000,
     		slides: [
-    			{ src: "./img/custom/greek-boat.jpg" },
-    			{ src: "./img/custom/greek-chair.jpg" },
+    			{ src: "./img/greek-boat.jpg" },
+    			{ src: "./img/greek-chair.jpg" },
     		]
     	});
     }

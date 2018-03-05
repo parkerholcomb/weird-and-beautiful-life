@@ -521,12 +521,12 @@ footer h2 {
 ==================================================== */
 #comment{
 	padding: 200px 0;
-	background: url("../img/custom/lake-jump.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+	background: url("../img/lake-jump.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
 }
 
 #comment-2{
 	padding: 300px 0;
-	background: url("../img/custom/xoxo.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+	background: url("../img/xoxo.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
 }
 
 #comment h3{
@@ -546,12 +546,12 @@ footer h2 {
 ==================================================== */
 
 /*story section images*/
-.story-first-dates{ background: url("../img/custom/first-dates.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
-.story-yes-and{ background: url("../img/custom/yes-and.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
-.story-chicago{ background: url("../img/custom/chicago.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
-.story-proposal{ background: url("../img/custom/proposal.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
-.story-nyc{ background: url("../img/custom/nyc.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
-.story-marlow{ background: url("../img/custom/marlow/marlow-1.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.story-first-dates{ background: url("../img/first-dates.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.story-yes-and{ background: url("../img/yes-and.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.story-chicago{ background: url("../img/chicago.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.story-proposal{ background: url("../img/proposal.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.story-nyc{ background: url("../img/nyc.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
+.story-marlow{ background: url("../img/marlow/marlow-1.jpg") no-repeat scroll center center / cover rgba(0, 0, 0, 0); }
 
 .story-img {
 	height: 17rem;
@@ -1063,7 +1063,7 @@ select.form-control:not([size]):not([multiple]) {
 ==================================================== */
 #footer{
 	padding: 8rem 0;
-	background: url("../img/custom/dancing.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+	background: url("../img/dancing.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
 	color: #fff;
 }
 #footer-bottom{
