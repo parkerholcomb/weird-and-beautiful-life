@@ -520,8 +520,15 @@ footer h2 {
 /* 7 Comment Section
 ==================================================== */
 #comment{
+	padding: 200px 0;
 	background: url("../img/custom/lake-jump.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
 }
+
+#comment-2{
+	padding: 300px 0;
+	background: url("../img/custom/xoxo.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+}
+
 #comment h3{
 	font-weight: 200;
 }
@@ -1062,7 +1069,7 @@ select.form-control:not([size]):not([multiple]) {
 ==================================================== */
 #footer{
 	padding: 8rem 0;
-	background: url("../img/footer_bg.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+	background: url("../img/custom/dancing.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
 	color: #fff;
 }
 #footer-bottom{
